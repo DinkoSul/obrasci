@@ -1,10 +1,12 @@
 import "./App.css";
-import UnosForme from "./Components/unosForme";
+// import UnosForme from "./Components/unosForme";
+import Zadatak from "./Components/zadatak";
 
 function App() {
   return (
     <div className="App">
-      <UnosForme />
+      {/* <UnosForme /> */}
+      <Zadatak />
     </div>
   );
 }
