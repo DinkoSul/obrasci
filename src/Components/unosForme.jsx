@@ -7,6 +7,7 @@ const UnosForme = () => {
   function handleSubmit(e) {
     e.preventDefault();
     setNames([...names, ime]);
+    setIme("");
   }
 
   return (
@@ -19,6 +20,7 @@ const UnosForme = () => {
             name="name"
             onChange={(e) => setIme(e.target.value)}
             value={ime}
+            autoFocus
           />
         </label>
         <input type="submit" value="Potvrdi" />
